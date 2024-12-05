@@ -1,0 +1,203 @@
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Repositório de Inclusão Digital
+  </title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="js.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+       new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Repositório de Inclusão Digital
+   </h1>
+  </header>
+  <div class="accessibility-bar">
+   <button id="increase-font" title="Aumentar fonte">
+    A+
+   </button>
+   <button id="decrease-font" title="Diminuir fonte">
+    A-
+   </button>
+   <button id="high-contrast" title="Alto contraste">
+    <i class="fas fa-adjust">
+    </i>
+   </button>
+   <select id="color-blind" title="Modo daltônico">
+    <option value="">
+     Selecione o modo daltônico
+    </option>
+    <option value="color-blind-acromatic">
+     Acromático
+    </option>
+    <option value="color-blind-dichromatic">
+     Dicromático
+    </option>
+    <option value="color-blind-trichromatic">
+     Tricomático
+    </option>
+   </select>
+   <div vw class="enabled">
+    <div vw-access-button class="active">
+    </div>
+    <div vw-plugin-wrapper>
+     <div class="vw-plugin-top-wrapper">
+     </div>
+    </div>
+   </div>
+  </div>
+  <nav>
+   <a class="tab-link active" href="#trabalhos">
+    Trabalhos
+   </a>
+   <a class="tab-link" href="#postar-trabalho">
+    Postar Trabalho
+   </a>
+   <a class="tab-link" href="#contato">
+    Contato
+   </a>
+  </nav>
+  <div class="container">
+   <section class="tab-content active" id="trabalhos">
+    <h2>
+     Trabalhos
+    </h2>
+    <div class="work-grid">
+     <div class="work-item">
+      <img alt="Imagem de um trabalho sobre inclusão digital" height="200" src="https://storage.googleapis.com/a1aa/image/fblZ9XFdiVRhQiUuH0ByplHI2SBl6kz3Df9AErGnVBfMVSnnA.jpg" width="300"/>
+      <h3>
+       Trabalho 1
+      </h3>
+      <p>
+       Descrição do trabalho 1 sobre inclusão digital.
+      </p>
+     </div>
+     <div class="work-item">
+      <img alt="Imagem de um trabalho sobre inclusão digital" height="200" src="https://storage.googleapis.com/a1aa/image/fblZ9XFdiVRhQiUuH0ByplHI2SBl6kz3Df9AErGnVBfMVSnnA.jpg" width="300"/>
+      <h3>
+       Trabalho 2
+      </h3>
+      <p>
+       Descrição do trabalho 2 sobre inclusão digital.
+      </p>
+     </div>
+     <div class="work-item">
+      <img alt="Imagem de um trabalho sobre inclusão digital" height="200" src="https://storage.googleapis.com/a1aa/image/fblZ9XFdiVRhQiUuH0ByplHI2SBl6kz3Df9AErGnVBfMVSnnA.jpg" width="300"/>
+      <h3>
+       Trabalho 3
+      </h3>
+      <p>
+       Descrição do trabalho 3 sobre inclusão digital.
+      </p>
+     </div>
+     <div class="work-item">
+      <img alt="Imagem de um trabalho sobre inclusão digital" height="200" src="https://storage.googleapis.com/a1aa/image/fblZ9XFdiVRhQiUuH0ByplHI2SBl6kz3Df9AErGnVBfMVSnnA.jpg" width="300"/>
+      <h3>
+       Trabalho 4
+      </h3>
+      <p>
+       Descrição do trabalho 4 sobre inclusão digital.
+      </p>
+     </div>
+     <div class="work-item">
+      <img alt="Imagem de um trabalho sobre inclusão digital" height="200" src="https://storage.googleapis.com/a1aa/image/fblZ9XFdiVRhQiUuH0ByplHI2SBl6kz3Df9AErGnVBfMVSnnA.jpg" width="300"/>
+      <h3>
+       Trabalho 5
+      </h3>
+      <p>
+       Descrição do trabalho 5 sobre inclusão digital.
+      </p>
+     </div>
+     <div class="work-item">
+      <img alt="Imagem de um trabalho sobre inclusão digital" height="200" src="https://storage.googleapis.com/a1aa/image/fblZ9XFdiVRhQiUuH0ByplHI2SBl6kz3Df9AErGnVBfMVSnnA.jpg" width="300"/>
+      <h3>
+       Trabalho 6
+      </h3>
+      <p>
+       Descrição do trabalho 6 sobre inclusão digital.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="tab-content" id="postar-trabalho">
+    <h2>
+     Postar Trabalho
+    </h2>
+    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="titulo">
+       Título
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="titulo" placeholder="Título do Trabalho" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="descricao">
+       Descrição
+      </label>
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="descricao" placeholder="Descrição do Trabalho"></textarea>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="imagem">
+       Imagem
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="imagem" type="file"/>
+     </div>
+     <div class="mb-4">
+      <p class="text-red-500 text-xs italic">
+       Ao postar, você é responsável pelo conteúdo publicado.
+      </p>
+     </div>
+     <div class="flex items-center justify-between">
+      <button id="postar-trabalho" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+       Postar
+      </button>
+     </div>
+    </form>
+   </section>
+   <section class="tab-content" id="contato">
+    <h2>
+     Contato
+    </h2>
+    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="nome">
+       Nome
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nome" placeholder="Seu Nome" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+       Email
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" placeholder="Seu Email" type="email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="mensagem">
+       Mensagem
+      </label>
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mensagem" placeholder="Sua Mensagem"></textarea>
+     </div>
+     <div class="flex items-center justify-between">
+      <button id="enviar-contato"class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+       Enviar
+      </button>
+     </div>
+    </form>
+   </section>
+  </div>
+  <footer>
+   <p>
+    © 2024 Repositório de Inclusão Digital. Todos os direitos reservados.
+   </p>
+  </footer>
+ </body>
+</html>
